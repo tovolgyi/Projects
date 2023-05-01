@@ -50,6 +50,7 @@ namespace ConsolProject
                     gener.Csinal(szamok);
                     Thread.Sleep(1000);
                     gener.Csinal(betuk);
+                    Console.ReadLine();
                     break;
                 #endregion
                 #region 6. XML olvasása és írása
