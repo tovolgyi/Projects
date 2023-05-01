@@ -1,0 +1,19 @@
+﻿<Page x:Class="WPFProject.Pages.HatterBeallito"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPFProject.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="350" d:DesignWidth="850"
+      Title="HatterBeallito">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left">
+            <Button Width="200" Height="100" Click="sarga"
+                    Content="Sárga"/>
+            
+            <Button Width="200" Height="100" Click="piros"
+                    Content="Piros"/>
+        </StackPanel>
+    </Grid>
+</Page>
