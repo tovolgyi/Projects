@@ -88,6 +88,7 @@ namespace ConsolProject
                 bemenet = bemenet.Replace(betu.ToString(), "");
             }
             Console.WriteLine(bemenet);
+            Console.ReadLine();
         }
     }
     public class DoWhile
@@ -181,6 +182,8 @@ namespace ConsolProject
                 string szoveg = writer.ToString();
                 Console.WriteLine(szoveg);
             }
+
+            Console.Read();
         }
     }
     public class Threading
@@ -197,6 +200,7 @@ namespace ConsolProject
             thread.Join();
 
             Console.WriteLine("Kész");
+            Console.Read();
         }
     }
     public class Delegalt
@@ -209,6 +213,7 @@ namespace ConsolProject
             Func<int, int, int> addNumbers = (x, y) => x + y;
             int result = addNumbers(2, 3);
             Console.WriteLine(result);
+            Console.Read();
         }
     }
     #endregion
